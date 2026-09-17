@@ -12,3 +12,4 @@ c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net1
 c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.pdb
 c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.genruntimeconfig.cache
 c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net10.0\ref\ConsoleApp1.dll
+c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.sourcelink.json
