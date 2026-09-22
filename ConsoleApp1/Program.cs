@@ -8,6 +8,38 @@ Console.WriteLine($"{Char1} kontra {Char2}, båda har 100 HP. FIGHT!");
 
 while (true)
 {
+    int slagStyrkaB = Random.Shared.Next(0, 9);
+    if (slagStyrkaB >= 8)
+    {
+        int crit = Random.Shared.Next(11, 20);
+        Console.WriteLine(crit);
+        HP2 = HP2 - crit;
+        Console.WriteLine($"Jävlar i min lilla låda!! {Char2} tog ett slag rakt i nyllet!!");
+        Console.WriteLine($"{Char1} har {HP1} och {Char2} har {HP2}");
+        Console.ReadKey();
+
+        if (HP1 <= 0 || HP2 <= 0)
+        {
+            break;
+        }
+    }
+
+    int slagStyrkaK = Random.Shared.Next(0, 9);
+    if (slagStyrkaK >= 8)
+    {
+        int crit = Random.Shared.Next(11, 20);
+        Console.WriteLine(crit);
+        HP1 = HP1 - crit;
+        Console.WriteLine($"Jävlar i min lilla låda!! {Char1} tog ett slag rakt i nyllet!!");
+        Console.WriteLine($"{Char1} har {HP1} och {Char2} har {HP2}");
+        Console.ReadKey();
+
+        if (HP1 <= 0 || HP2 <= 0)
+        {
+            break;
+        }
+    }
+
     int damage1 = Random.Shared.Next(0, 11);
     int damage2 = Random.Shared.Next(0, 11);
 
