@@ -14,7 +14,13 @@ while (true)
         int crit = Random.Shared.Next(11, 20);
         Console.WriteLine(crit);
         HP2 = HP2 - crit;
-        Console.WriteLine($"Jävlar i min lilla låda!! {Char2} tog ett slag rakt i nyllet!!");
+        int dialog1=Random.Shared.Next(0,10);
+        if(dialog1<=4){
+            Console.WriteLine($"Jävlar i min lilla låda!! {Char2} tog ett slag rakt i nyllet!!");
+        }
+        else if(dialog1>=5){
+            Console.WriteLine($"Åh fy helsike det där kan bara ha gjort ont för stackars {Char2}");
+        }
         Console.WriteLine($"{Char1} har {HP1} och {Char2} har {HP2}");
         Console.ReadKey();
 
@@ -30,7 +36,13 @@ while (true)
         int crit = Random.Shared.Next(11, 20);
         Console.WriteLine(crit);
         HP1 = HP1 - crit;
-        Console.WriteLine($"Jävlar i min lilla låda!! {Char1} tog ett slag rakt i nyllet!!");
+        int dialog2=Random.Shared.Next(0,10);
+        if(dialog2<=4){
+            Console.WriteLine($"Jävlar i min lilla låda!! {Char1} tog ett slag rakt i nyllet!!");
+        }
+        else if(dialog2>=5){
+            Console.WriteLine($"Åh fy helsike det där kan bara ha gjort ont för stackars {Char1}");
+        }
         Console.WriteLine($"{Char1} har {HP1} och {Char2} har {HP2}");
         Console.ReadKey();
 
