@@ -13,3 +13,9 @@ c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net1
 c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.genruntimeconfig.cache
 c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net10.0\ref\ConsoleApp1.dll
 c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.sourcelink.json
+c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\bin\Debug\net10.0\NAudio.dll
+c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\bin\Debug\net10.0\NAudio.Core.dll
+c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\bin\Debug\net10.0\NAudio.Midi.dll
+c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\bin\Debug\net10.0\System.Numerics.Tensors.dll
+c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.csproj.AssemblyReference.cache
+c:\Users\albin.wollblad\Desktop\Kodning\Fighting spel\ConsoleApp1\obj\Debug\net10.0\ConsoleA.CB28C8CC.Up2Date

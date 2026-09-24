@@ -1,4 +1,6 @@
-﻿int HP1 = 100;
+﻿using NAudio.Wave;
+
+int HP1 = 100;
 string Char1 = "Bobban";
 
 int HP2 = 100;
@@ -82,3 +84,7 @@ else if (HP2 <= 0)
 }
 Console.WriteLine($"Ohhh en så spännande match, bra kämpat, även om du strök med på kuppen!");
 Console.ReadKey();
+
+// var player = new WasapiPlayerBuilder().Build();
+// var auidoFile = new AudioFileReader("klocka.wav");
+// Fick inte skiten att fungera

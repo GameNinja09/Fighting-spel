@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "BqZFNAUeiFU=",
+  "dgSpecHash": "dGwPpe5YY+4=",
   "success": true,
-  "projectFilePath": "c:\\Users\\albin.wollblad\\Desktop\\Kodning\\Fighting spel\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\albin.wollblad\\Desktop\\Kodning\\Fighting spel\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\albin.wollblad\\.nuget\\packages\\naudio\\3.1.1-preview.2\\naudio.3.1.1-preview.2.nupkg.sha512",
+    "C:\\Users\\albin.wollblad\\.nuget\\packages\\naudio.core\\3.1.1-preview.2\\naudio.core.3.1.1-preview.2.nupkg.sha512",
+    "C:\\Users\\albin.wollblad\\.nuget\\packages\\naudio.midi\\3.1.1-preview.2\\naudio.midi.3.1.1-preview.2.nupkg.sha512",
+    "C:\\Users\\albin.wollblad\\.nuget\\packages\\naudio.wasapi\\3.1.1-preview.2\\naudio.wasapi.3.1.1-preview.2.nupkg.sha512",
+    "C:\\Users\\albin.wollblad\\.nuget\\packages\\system.numerics.tensors\\9.0.0\\system.numerics.tensors.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

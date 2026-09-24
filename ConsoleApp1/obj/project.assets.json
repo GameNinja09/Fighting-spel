@@ -1,11 +1,199 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "NAudio/3.1.1-preview.2": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "3.1.1-preview.2",
+          "NAudio.Midi": "3.1.1-preview.2"
+        },
+        "compile": {
+          "lib/net9.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Core/3.1.1-preview.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Tensors": "9.0.0"
+        },
+        "compile": {
+          "lib/net9.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Midi/3.1.1-preview.2": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "3.1.1-preview.2"
+        },
+        "compile": {
+          "lib/net9.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Wasapi/3.1.1-preview.2": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "3.1.1-preview.2"
+        },
+        "compile": {
+          "lib/net9.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Numerics.Tensors/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NAudio/3.1.1-preview.2": {
+      "sha512": "EIsBEAJLWIdAqPvxJ5Sjqp4ZbHe3MOZLyLkc77LsULySge9f5i5T3chmLab9vzLsQ9gpqc90cR4QMdFKmk3K5g==",
+      "type": "package",
+      "path": "naudio/3.1.1-preview.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "_manifest/spdx_2.2/manifest.spdx.json",
+        "_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "lib/net9.0-windows10.0.19041/NAudio.dll",
+        "lib/net9.0-windows10.0.19041/NAudio.xml",
+        "lib/net9.0-windows7.0/NAudio.dll",
+        "lib/net9.0-windows7.0/NAudio.xml",
+        "lib/net9.0/NAudio.dll",
+        "lib/net9.0/NAudio.xml",
+        "naudio-icon.png",
+        "naudio.3.1.1-preview.2.nupkg.sha512",
+        "naudio.nuspec"
+      ]
+    },
+    "NAudio.Core/3.1.1-preview.2": {
+      "sha512": "GFoQoRAZ7/ZlaQs32yfNKx5lA8quPNhxv3PJV1/JvwhHAHUxZ8mvyF7WLigZ0qL2/CGATH8Mvmlm+8xqp/m19A==",
+      "type": "package",
+      "path": "naudio.core/3.1.1-preview.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "_manifest/spdx_2.2/manifest.spdx.json",
+        "_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "lib/net9.0/NAudio.Core.dll",
+        "lib/net9.0/NAudio.Core.xml",
+        "naudio-icon.png",
+        "naudio.core.3.1.1-preview.2.nupkg.sha512",
+        "naudio.core.nuspec"
+      ]
+    },
+    "NAudio.Midi/3.1.1-preview.2": {
+      "sha512": "vPsvB4J+8lfEeUYVuLjeVoIHK41n2waDabpvHUvilPd5d2OrHGp32EI6Ly0NYmluJhiItuW2ftVJ4nk/shPFLw==",
+      "type": "package",
+      "path": "naudio.midi/3.1.1-preview.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "_manifest/spdx_2.2/manifest.spdx.json",
+        "_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "lib/net9.0-windows10.0.19041/NAudio.Midi.dll",
+        "lib/net9.0-windows10.0.19041/NAudio.Midi.xml",
+        "lib/net9.0/NAudio.Midi.dll",
+        "lib/net9.0/NAudio.Midi.xml",
+        "naudio-icon.png",
+        "naudio.midi.3.1.1-preview.2.nupkg.sha512",
+        "naudio.midi.nuspec"
+      ]
+    },
+    "NAudio.Wasapi/3.1.1-preview.2": {
+      "sha512": "pU6b43O4bBzFx8DFhuvTS1vxWdoBFv1QCYUfwKA+gLW99310RI/eDkdYS8bjlJjrfR5RQFlxKKs1O5qd0Wgxng==",
+      "type": "package",
+      "path": "naudio.wasapi/3.1.1-preview.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "_manifest/spdx_2.2/manifest.spdx.json",
+        "_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "lib/net9.0/NAudio.Wasapi.dll",
+        "lib/net9.0/NAudio.Wasapi.xml",
+        "naudio-icon.png",
+        "naudio.wasapi.3.1.1-preview.2.nupkg.sha512",
+        "naudio.wasapi.nuspec"
+      ]
+    },
+    "System.Numerics.Tensors/9.0.0": {
+      "sha512": "hyJB4UlpAi19Xr9AXzu2NuagKC4lPfHObNMEAA0HmqFz2rX7wKgzeYzO/jM/eBHDhnUGFFEjk5cOoJaxqg5J4A==",
+      "type": "package",
+      "path": "system.numerics.tensors/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Numerics.Tensors.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Numerics.Tensors.targets",
+        "lib/net462/System.Numerics.Tensors.dll",
+        "lib/net462/System.Numerics.Tensors.xml",
+        "lib/net8.0/System.Numerics.Tensors.dll",
+        "lib/net8.0/System.Numerics.Tensors.xml",
+        "lib/net9.0/System.Numerics.Tensors.dll",
+        "lib/net9.0/System.Numerics.Tensors.xml",
+        "lib/netstandard2.0/System.Numerics.Tensors.dll",
+        "lib/netstandard2.0/System.Numerics.Tensors.xml",
+        "system.numerics.tensors.9.0.0.nupkg.sha512",
+        "system.numerics.tensors.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "NAudio >= 3.1.1-preview.2",
+      "NAudio.Wasapi >= 3.1.1-preview.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\albin.wollblad\\.nuget\\packages\\": {},
@@ -58,6 +246,16 @@
       "net10.0": {
         "framework": "net10.0",
         "targetAlias": "net10.0",
+        "dependencies": {
+          "NAudio": {
+            "target": "Package",
+            "version": "[3.1.1-preview.2, )"
+          },
+          "NAudio.Wasapi": {
+            "target": "Package",
+            "version": "[3.1.1-preview.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
